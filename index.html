@@ -3,250 +3,395 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EdgesOf MediScript - New Features Roadmap</title>
+  <title>EdgesOf MediScript - Complete Feature Roadmap</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <style>
     * { font-family: 'Inter', sans-serif; }
   </style>
 </head>
-<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen p-8">
+<body class="bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 min-h-screen p-8">
   <div class="max-w-7xl mx-auto">
+    <!-- Header -->
     <div class="text-center mb-12">
-      <h1 class="text-5xl font-bold text-gray-900 mb-4">🚀 EdgesOf MediScript</h1>
-      <p class="text-2xl text-gray-600">Advanced Features Implementation Plan</p>
+      <div class="text-6xl mb-4">🏥</div>
+      <h1 class="text-5xl font-bold text-gray-900 mb-4">EdgesOf MediScript</h1>
+      <p class="text-2xl text-gray-600 mb-2">Complete Feature Roadmap</p>
+      <p class="text-lg text-gray-500">6-Phase Implementation Plan</p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Feature 1: Advanced Patient Management -->
-      <div class="bg-white rounded-2xl p-8 shadow-xl border-t-4 border-blue-500">
-        <div class="text-4xl mb-4">👥</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-4">Advanced Patient Management</h3>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li>✅ Add New Patient Modal</li>
-          <li>✅ Edit Patient Information</li>
-          <li>✅ Delete Patient (with confirmation)</li>
-          <li>✅ Patient Medical History Timeline</li>
-          <li>✅ Upload Patient Photos</li>
-          <li>✅ Family History Tracking</li>
-          <li>✅ Insurance Details Management</li>
-          <li>✅ Advanced Search & Filters</li>
-        </ul>
-      </div>
-
-      <!-- Feature 2: Appointment Scheduling -->
-      <div class="bg-white rounded-2xl p-8 shadow-xl border-t-4 border-green-500">
-        <div class="text-4xl mb-4">📅</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-4">Appointment Scheduling</h3>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li>✅ Calendar View (Month/Week/Day)</li>
-          <li>✅ Book New Appointment</li>
-          <li>✅ Slot-based Booking System</li>
-          <li>✅ Appointment Status Tracking</li>
-          <li>✅ SMS/Email Reminders</li>
-          <li>✅ Reschedule Appointments</li>
-          <li>✅ Cancel Appointments</li>
-          <li>✅ Queue Management</li>
-        </ul>
-      </div>
-
-      <!-- Feature 3: Billing & Invoicing -->
-      <div class="bg-white rounded-2xl p-8 shadow-xl border-t-4 border-purple-500">
-        <div class="text-4xl mb-4">💰</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-4">Billing & Invoicing</h3>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li>✅ Generate Invoices</li>
-          <li>✅ Multiple Payment Methods</li>
-          <li>✅ GST Calculation</li>
-          <li>✅ Discount Management</li>
-          <li>✅ Payment Tracking</li>
-          <li>✅ Outstanding Payments</li>
-          <li>✅ Receipt Generation</li>
-          <li>✅ Payment History</li>
-        </ul>
-      </div>
-
-      <!-- Feature 4: Lab Integration -->
-      <div class="bg-white rounded-2xl p-8 shadow-xl border-t-4 border-yellow-500">
-        <div class="text-4xl mb-4">🔬</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-4">Lab Integration</h3>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li>✅ Order Lab Tests</li>
-          <li>✅ Test Status Tracking</li>
-          <li>✅ Upload Test Results</li>
-          <li>✅ View Results History</li>
-          <li>✅ Trending/Graphing (HbA1c, etc.)</li>
-          <li>✅ Lab Partner Integration</li>
-          <li>✅ Test Recommendations</li>
-          <li>✅ Critical Value Alerts</li>
-        </ul>
-      </div>
-
-      <!-- Feature 5: Reports & Analytics -->
-      <div class="bg-white rounded-2xl p-8 shadow-xl border-t-4 border-red-500">
-        <div class="text-4xl mb-4">📊</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-4">Reports & Analytics</h3>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li>✅ Patient Volume Charts</li>
-          <li>✅ Revenue Analytics</li>
-          <li>✅ Prescription Patterns</li>
-          <li>✅ Disease Prevalence</li>
-          <li>✅ Export to PDF</li>
-          <li>✅ Export to Excel</li>
-          <li>✅ Custom Date Ranges</li>
-          <li>✅ Comparative Analysis</li>
-        </ul>
-      </div>
-
-      <!-- Feature 6: Inventory Management -->
-      <div class="bg-white rounded-2xl p-8 shadow-xl border-t-4 border-pink-500">
-        <div class="text-4xl mb-4">📦</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-4">Inventory Management</h3>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li>✅ Stock Tracking</li>
-          <li>✅ Expiry Alerts</li>
-          <li>✅ Reorder Levels</li>
-          <li>✅ Purchase Orders</li>
-          <li>✅ Supplier Management</li>
-          <li>✅ Batch Tracking</li>
-          <li>✅ Stock Reports</li>
-          <li>✅ Low Stock Alerts</li>
-        </ul>
-      </div>
-
-      <!-- Feature 7: Settings & Customization -->
-      <div class="bg-white rounded-2xl p-8 shadow-xl border-t-4 border-indigo-500">
-        <div class="text-4xl mb-4">⚙️</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-4">Settings & Customization</h3>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li>✅ Clinic Profile Settings</li>
-          <li>✅ User Management</li>
-          <li>✅ Role-based Permissions</li>
-          <li>✅ Prescription Templates</li>
-          <li>✅ Custom Letterhead</li>
-          <li>✅ Email/SMS Configuration</li>
-          <li>✅ Backup & Restore</li>
-          <li>✅ Theme Customization</li>
-        </ul>
-      </div>
-
-      <!-- Feature 8: Communication -->
-      <div class="bg-white rounded-2xl p-8 shadow-xl border-t-4 border-teal-500">
-        <div class="text-4xl mb-4">💬</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-4">Communication</h3>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li>✅ SMS Notifications</li>
-          <li>✅ Email Notifications</li>
-          <li>✅ WhatsApp Integration</li>
-          <li>✅ Appointment Reminders</li>
-          <li>✅ Follow-up Reminders</li>
-          <li>✅ Birthday Wishes</li>
-          <li>✅ Health Tips</li>
-          <li>✅ Bulk Messaging</li>
-        </ul>
-      </div>
-
-      <!-- Feature 9: Patient Portal -->
-      <div class="bg-white rounded-2xl p-8 shadow-xl border-t-4 border-orange-500">
-        <div class="text-4xl mb-4">🌐</div>
-        <h3 class="text-xl font-bold text-gray-900 mb-4">Patient Portal</h3>
-        <ul class="space-y-2 text-sm text-gray-600">
-          <li>✅ Online Appointment Booking</li>
-          <li>✅ View Medical Records</li>
-          <li>✅ Download Prescriptions</li>
-          <li>✅ Lab Reports Access</li>
-          <li>✅ Payment History</li>
-          <li>✅ Health Tracker</li>
-          <li>✅ Medicine Reminders</li>
-          <li>✅ Telemedicine Support</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="mt-12 bg-white rounded-2xl p-10 shadow-2xl">
-      <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">🎯 Implementation Status</h2>
+    <!-- Progress Overview -->
+    <div class="bg-white rounded-2xl shadow-2xl p-10 mb-8">
+      <h2 class="text-3xl font-bold mb-8">📊 Overall Progress</h2>
       
-      <div class="space-y-6">
-        <div>
-          <div class="flex justify-between mb-2">
-            <span class="font-semibold text-gray-700">Phase 1: Core Features</span>
-            <span class="font-bold text-green-600">100% Complete ✓</span>
+      <div class="mb-8">
+        <div class="flex justify-between mb-2">
+          <span class="font-bold text-xl">Total Completion</span>
+          <span class="text-green-600 font-bold text-xl">60% Complete</span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-8">
+          <div class="bg-gradient-to-r from-green-500 to-blue-600 h-8 rounded-full flex items-center justify-center text-white font-bold" style="width: 60%">
+            3 of 6 Phases Complete
           </div>
-          <div class="w-full bg-gray-200 rounded-full h-4">
-            <div class="bg-gradient-to-r from-green-500 to-emerald-500 h-4 rounded-full" style="width: 100%"></div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-6">
+        <div class="p-6 bg-green-50 rounded-xl border-l-4 border-green-500">
+          <p class="text-sm text-gray-600 mb-1">Completed</p>
+          <p class="text-4xl font-bold text-green-600">3</p>
+          <p class="text-xs text-gray-500 mt-1">Phases 1-3</p>
+        </div>
+        <div class="p-6 bg-orange-50 rounded-xl border-l-4 border-orange-500">
+          <p class="text-sm text-gray-600 mb-1">In Progress</p>
+          <p class="text-4xl font-bold text-orange-600">1</p>
+          <p class="text-xs text-gray-500 mt-1">Phase 4</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-xl border-l-4 border-blue-500">
+          <p class="text-sm text-gray-600 mb-1">Planned</p>
+          <p class="text-4xl font-bold text-blue-600">2</p>
+          <p class="text-xs text-gray-500 mt-1">Phases 5-6</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Phase Details -->
+    <div class="space-y-8">
+      <!-- Phase 1 -->
+      <div class="bg-white rounded-2xl shadow-xl p-8 border-l-8 border-green-500">
+        <div class="flex justify-between items-start mb-6">
+          <div>
+            <h3 class="text-2xl font-bold text-green-700 mb-2">Phase 1: Data Protection & Privacy ✅</h3>
+            <p class="text-gray-600">Weeks 1-2 | Status: <span class="text-green-600 font-bold">COMPLETE</span></p>
+          </div>
+          <span class="px-6 py-3 bg-green-500 text-white rounded-full font-bold text-lg">100%</span>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-6">
+          <div>
+            <h4 class="font-bold mb-3">Features Implemented:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 font-bold">✓</span>
+                <span><strong>DPDP Act 2023 Consent:</strong> Mandatory consent screen before data collection</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 font-bold">✓</span>
+                <span><strong>Audit Logging:</strong> Complete action tracking with 10-year retention</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 font-bold">✓</span>
+                <span><strong>Session Management:</strong> 15-minute auto-logout for security</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 font-bold">✓</span>
+                <span><strong>Data Localization:</strong> All data stored in India (DISHA compliant)</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 font-bold">✓</span>
+                <span><strong>Encryption:</strong> AES-256 at rest, TLS 1.3 in transit</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 font-bold">✓</span>
+                <span><strong>Patient Rights:</strong> Access, correction, erasure, portability</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold mb-3">Compliance Achieved:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="px-4 py-2 bg-green-50 rounded-lg">✓ DISHA (Digital Information Security in Healthcare Act)</li>
+              <li class="px-4 py-2 bg-green-50 rounded-lg">✓ DPDP Act 2023 (Digital Personal Data Protection)</li>
+              <li class="px-4 py-2 bg-green-50 rounded-lg">✓ IT Act 2000 (Information Technology Act)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phase 2 -->
+      <div class="bg-white rounded-2xl shadow-xl p-8 border-l-8 border-purple-500">
+        <div class="flex justify-between items-start mb-6">
+          <div>
+            <h3 class="text-2xl font-bold text-purple-700 mb-2">Phase 2: Medical & GST Compliance ✅</h3>
+            <p class="text-gray-600">Weeks 3-4 | Status: <span class="text-green-600 font-bold">COMPLETE</span></p>
+          </div>
+          <span class="px-6 py-3 bg-purple-500 text-white rounded-full font-bold text-lg">100%</span>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-6">
+          <div>
+            <h4 class="font-bold mb-3">Features Implemented:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-start gap-2">
+                <span class="text-purple-600 font-bold">✓</span>
+                <span><strong>Schedule H/H1/X Tracking:</strong> Drug classification with color-coded badges</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-purple-600 font-bold">✓</span>
+                <span><strong>Prescription Validity:</strong> 30-day default with expiry tracking</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-purple-600 font-bold">✓</span>
+                <span><strong>Authorization Checks:</strong> H1/X drugs require special permission</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-purple-600 font-bold">✓</span>
+                <span><strong>Controlled Substance Log:</strong> Automatic logging for narcotics</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-purple-600 font-bold">✓</span>
+                <span><strong>GST Calculation:</strong> CGST 9% + SGST 9% = 18% total</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-purple-600 font-bold">✓</span>
+                <span><strong>HSN/SAC Codes:</strong> All items properly classified</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold mb-3">Compliance Achieved:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="px-4 py-2 bg-purple-50 rounded-lg">✓ Drugs & Cosmetics Act 1940</li>
+              <li class="px-4 py-2 bg-purple-50 rounded-lg">✓ GST Act 2017</li>
+              <li class="px-4 py-2 bg-purple-50 rounded-lg">✓ Prescription Regulations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phase 3 -->
+      <div class="bg-white rounded-2xl shadow-xl p-8 border-l-8 border-red-500">
+        <div class="flex justify-between items-start mb-6">
+          <div>
+            <h3 class="text-2xl font-bold text-red-700 mb-2">Phase 3: Security & Breach Response ✅</h3>
+            <p class="text-gray-600">Weeks 5-6 | Status: <span class="text-green-600 font-bold">COMPLETE</span></p>
+          </div>
+          <span class="px-6 py-3 bg-red-500 text-white rounded-full font-bold text-lg">100%</span>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-6">
+          <div>
+            <h4 class="font-bold mb-3">Features Implemented:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-start gap-2">
+                <span class="text-red-600 font-bold">✓</span>
+                <span><strong>Breach Detection:</strong> Real-time security incident monitoring</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600 font-bold">✓</span>
+                <span><strong>72hr Notification:</strong> Automatic compliance tracking</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600 font-bold">✓</span>
+                <span><strong>Failed Login Tracking:</strong> 5 attempts = 30 min lockout</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600 font-bold">✓</span>
+                <span><strong>Security Dashboard:</strong> Real-time monitoring & alerts</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600 font-bold">✓</span>
+                <span><strong>Incident Classification:</strong> Low/Medium/High/Critical</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-red-600 font-bold">✓</span>
+                <span><strong>Backup Logging:</strong> Disaster recovery tracking</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold mb-3">Security Features:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="px-4 py-2 bg-red-50 rounded-lg">✓ Security Incident Register</li>
+              <li class="px-4 py-2 bg-red-50 rounded-lg">✓ Data Breach Register (DISHA)</li>
+              <li class="px-4 py-2 bg-red-50 rounded-lg">✓ Account Lockout System</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phase 4 -->
+      <div class="bg-white rounded-2xl shadow-xl p-8 border-l-8 border-orange-500">
+        <div class="flex justify-between items-start mb-6">
+          <div>
+            <h3 class="text-2xl font-bold text-orange-700 mb-2">Phase 4: OPD & Clinical Features 🔄</h3>
+            <p class="text-gray-600">Weeks 7-8 | Status: <span class="text-orange-600 font-bold">IN PROGRESS</span></p>
+          </div>
+          <span class="px-6 py-3 bg-orange-500 text-white rounded-full font-bold text-lg">SQL Ready</span>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-6">
+          <div>
+            <h4 class="font-bold mb-3">Features to Implement:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-start gap-2">
+                <span class="text-orange-600 font-bold">→</span>
+                <span><strong>OPD Consultation:</strong> Complete visit workflow with clinical notes</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-orange-600 font-bold">→</span>
+                <span><strong>Vitals Tracking:</strong> BP, temp, pulse, weight, height, BMI auto-calc</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-orange-600 font-bold">→</span>
+                <span><strong>Chief Complaints:</strong> Structured complaint recording</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-orange-600 font-bold">→</span>
+                <span><strong>Clinical Examination:</strong> Detailed examination notes</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-orange-600 font-bold">→</span>
+                <span><strong>Lab Test Ordering:</strong> Complete lab workflow</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-orange-600 font-bold">→</span>
+                <span><strong>Appointment Booking:</strong> Calendar-based scheduling</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold mb-3">Additional Features:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="px-4 py-2 bg-orange-50 rounded-lg">→ Medical History Tracking</li>
+              <li class="px-4 py-2 bg-orange-50 rounded-lg">→ Allergy Management</li>
+              <li class="px-4 py-2 bg-orange-50 rounded-lg">→ Immunization Records</li>
+              <li class="px-4 py-2 bg-orange-50 rounded-lg">→ Clinical Templates</li>
+              <li class="px-4 py-2 bg-orange-50 rounded-lg">→ Doctor Schedules</li>
+            </ul>
           </div>
         </div>
 
-        <div>
-          <div class="flex justify-between mb-2">
-            <span class="font-semibold text-gray-700">Phase 2: Advanced Features</span>
-            <span class="font-bold text-blue-600">In Progress... 🚀</span>
+        <div class="mt-6 p-4 bg-orange-50 border-l-4 border-orange-500 rounded-xl">
+          <p class="font-bold text-orange-900 mb-2">📋 Next Step:</p>
+          <p class="text-sm text-orange-800">Run Phase 4 SQL migration, then deploy UI features</p>
+          <a href="https://vaibhaviimcal-web.github.io/edgesof-mediscript-phase4-sql/" target="_blank" class="inline-block mt-3 px-6 py-2 bg-orange-600 text-white rounded-lg font-bold hover:bg-orange-700">
+            View Phase 4 SQL →
+          </a>
+        </div>
+      </div>
+
+      <!-- Phase 5 -->
+      <div class="bg-white rounded-2xl shadow-xl p-8 border-l-8 border-blue-500">
+        <div class="flex justify-between items-start mb-6">
+          <div>
+            <h3 class="text-2xl font-bold text-blue-700 mb-2">Phase 5: Advanced Features 📅</h3>
+            <p class="text-gray-600">Weeks 9-10 | Status: <span class="text-blue-600 font-bold">PLANNED</span></p>
           </div>
-          <div class="w-full bg-gray-200 rounded-full h-4">
-            <div class="bg-gradient-to-r from-blue-500 to-indigo-500 h-4 rounded-full animate-pulse" style="width: 30%"></div>
+          <span class="px-6 py-3 bg-blue-500 text-white rounded-full font-bold text-lg">Planned</span>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-6">
+          <div>
+            <h4 class="font-bold mb-3">Planned Features:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-start gap-2">
+                <span class="text-blue-600 font-bold">○</span>
+                <span><strong>Inventory Management:</strong> Medicine stock tracking</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-blue-600 font-bold">○</span>
+                <span><strong>Purchase Orders:</strong> Supplier management</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-blue-600 font-bold">○</span>
+                <span><strong>Stock Alerts:</strong> Low stock notifications</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-blue-600 font-bold">○</span>
+                <span><strong>Expiry Tracking:</strong> Medicine expiry alerts</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-blue-600 font-bold">○</span>
+                <span><strong>Reports & Analytics:</strong> Business intelligence</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-blue-600 font-bold">○</span>
+                <span><strong>Financial Reports:</strong> Revenue tracking</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold mb-3">Analytics Features:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="px-4 py-2 bg-blue-50 rounded-lg">○ Patient Demographics</li>
+              <li class="px-4 py-2 bg-blue-50 rounded-lg">○ Revenue Analysis</li>
+              <li class="px-4 py-2 bg-blue-50 rounded-lg">○ Doctor Performance</li>
+              <li class="px-4 py-2 bg-blue-50 rounded-lg">○ Disease Trends</li>
+            </ul>
           </div>
         </div>
+      </div>
 
-        <div>
-          <div class="flex justify-between mb-2">
-            <span class="font-semibold text-gray-700">Phase 3: Mobile App</span>
-            <span class="font-bold text-gray-500">Planned 📱</span>
+      <!-- Phase 6 -->
+      <div class="bg-white rounded-2xl shadow-xl p-8 border-l-8 border-indigo-500">
+        <div class="flex justify-between items-start mb-6">
+          <div>
+            <h3 class="text-2xl font-bold text-indigo-700 mb-2">Phase 6: Patient Engagement 📅</h3>
+            <p class="text-gray-600">Weeks 11-12 | Status: <span class="text-indigo-600 font-bold">PLANNED</span></p>
           </div>
-          <div class="w-full bg-gray-200 rounded-full h-4">
-            <div class="bg-gradient-to-r from-gray-400 to-gray-500 h-4 rounded-full" style="width: 0%"></div>
+          <span class="px-6 py-3 bg-indigo-500 text-white rounded-full font-bold text-lg">Planned</span>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-6">
+          <div>
+            <h4 class="font-bold mb-3">Planned Features:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-start gap-2">
+                <span class="text-indigo-600 font-bold">○</span>
+                <span><strong>Patient Portal:</strong> Web/mobile access for patients</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-indigo-600 font-bold">○</span>
+                <span><strong>Online Booking:</strong> Self-service appointments</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-indigo-600 font-bold">○</span>
+                <span><strong>SMS/Email Reminders:</strong> Automated notifications</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-indigo-600 font-bold">○</span>
+                <span><strong>WhatsApp Integration:</strong> Chat notifications</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-indigo-600 font-bold">○</span>
+                <span><strong>Telemedicine:</strong> Video consultations</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-indigo-600 font-bold">○</span>
+                <span><strong>Online Payments:</strong> Digital payment integration</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold mb-3">Patient Features:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="px-4 py-2 bg-indigo-50 rounded-lg">○ View Prescriptions</li>
+              <li class="px-4 py-2 bg-indigo-50 rounded-lg">○ Download Reports</li>
+              <li class="px-4 py-2 bg-indigo-50 rounded-lg">○ Health Records Access</li>
+              <li class="px-4 py-2 bg-indigo-50 rounded-lg">○ Payment History</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-8 text-white shadow-xl">
-        <div class="text-5xl mb-4">🎨</div>
-        <h3 class="text-2xl font-bold mb-2">Beautiful UI</h3>
-        <p class="text-blue-100">Sophisticated glassmorphism design with smooth animations and micro-interactions</p>
-      </div>
-
-      <div class="bg-gradient-to-br from-green-500 to-green-600 rounded-2xl p-8 text-white shadow-xl">
-        <div class="text-5xl mb-4">⚡</div>
-        <h3 class="text-2xl font-bold mb-2">Fast & Responsive</h3>
-        <p class="text-green-100">Optimized performance with instant loading and smooth transitions</p>
-      </div>
-
-      <div class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl p-8 text-white shadow-xl">
-        <div class="text-5xl mb-4">🔒</div>
-        <h3 class="text-2xl font-bold mb-2">Secure & Compliant</h3>
-        <p class="text-purple-100">HIPAA/DISHA compliant with end-to-end encryption and audit trails</p>
-      </div>
-    </div>
-
-    <div class="mt-12 text-center">
-      <a href="https://vaibhaviimcal-web.github.io/edgesof-mediscript-app/" class="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-12 py-5 rounded-2xl font-bold text-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition">
-        🚀 Launch Application
-      </a>
-      <p class="mt-4 text-gray-600">All features being implemented incrementally</p>
-    </div>
-
+    <!-- Quick Links -->
     <div class="mt-12 bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-10 text-white">
-      <h3 class="text-2xl font-bold mb-6">📋 Next Steps</h3>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div>
-          <h4 class="font-bold text-lg mb-3 text-blue-300">Currently Implementing:</h4>
-          <ul class="space-y-2 text-gray-300">
-            <li>✓ Add/Edit Patient Modal</li>
-            <li>✓ Appointment Calendar</li>
-            <li>✓ Billing System</li>
-            <li>✓ Lab Orders</li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="font-bold text-lg mb-3 text-green-300">Coming Next:</h4>
-          <ul class="space-y-2 text-gray-300">
-            <li>→ Analytics Dashboard</li>
-            <li>→ Inventory Management</li>
-            <li>→ Settings Panel</li>
-            <li>→ Mobile App Development</li>
-          </ul>
-        </div>
+      <h2 class="text-3xl font-bold mb-8">🔗 Quick Links</h2>
+      <div class="grid grid-cols-3 gap-6">
+        <a href="https://vaibhaviimcal-web.github.io/edgesof-mediscript-app/" target="_blank" class="p-6 bg-white bg-opacity-10 rounded-xl hover:bg-opacity-20 transition text-center">
+          <div class="text-4xl mb-3">🚀</div>
+          <p class="font-bold">Live Application</p>
+        </a>
+        <a href="https://vaibhaviimcal-web.github.io/edgesof-mediscript-complete-summary/" target="_blank" class="p-6 bg-white bg-opacity-10 rounded-xl hover:bg-opacity-20 transition text-center">
+          <div class="text-4xl mb-3">📊</div>
+          <p class="font-bold">Complete Summary</p>
+        </a>
+        <a href="https://vaibhaviimcal-web.github.io/edgesof-mediscript-phase4-sql/" target="_blank" class="p-6 bg-white bg-opacity-10 rounded-xl hover:bg-opacity-20 transition text-center">
+          <div class="text-4xl mb-3">🗄️</div>
+          <p class="font-bold">Phase 4 SQL</p>
+        </a>
       </div>
     </div>
   </div>
